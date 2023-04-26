@@ -20,4 +20,3 @@ async def load_cogs() -> None:
 
 asyncio.run(load_cogs())
 bot.run(os.getenv('DISCORD_TOKEN'))
-    
